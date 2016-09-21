@@ -11,6 +11,13 @@ form {
   display: inline-block;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: 1px solid #FF244F;
+}
+
 .container{
   text-align: center;
 }

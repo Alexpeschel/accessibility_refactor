@@ -19,10 +19,12 @@
     </div>
 
     <header>
+      <h1>Accessible Frog</h1>
+      <p>we make awesome music</p>
     </header>
 
     <main role="main">
-      <p class= "heading">Survey</p>
+      <h3 class= "heading">Survey</h3>
       <div class="card">
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="concert image" role="banner">
@@ -37,6 +39,7 @@
               </fieldset>
               <fieldset>  
                 <legend>What is your favorite album:</legend>
+                <label for="albums">Favorite Albums</label>
                 <select id="albums" name="select">
                   <option value="1">A Day Of Old</option>
                   <option value="2">Diamond Fireworks</option>
@@ -53,13 +56,14 @@
               </fieldset>
               <fieldset>  
                 <legend>What is your favorite song:</legend>
-                <textarea></textarea>
+                <label for="textarea">Favorite Song</label>
+                <textarea id="textarea"></textarea>
               </fieldset>
             </form>
           </div>
         </div>
       </div>
-      <p class= "heading">Newsletter</p>
+      <h3 class= "heading">Newsletter</h3>
       <div class="card">
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="the band" role="banner">
